@@ -7,7 +7,7 @@
 * 문의 고객센터 [http://cs.daum.net/mail/form/256.html](http://cs.daum.net/mail/form/256.html)
 * 사이트/앱 운영 정책 [http://mobile.biz.daum.net/guide/guide_siteapp_policy.jsp](http://mobile.biz.daum.net/guide/guide_siteapp_policy.jsp)
 
-실제 적용 가이드는  [셈플 페이지]()를 참고하시기 바랍니다.
+실제 적용 가이드는  [셈플 페이지](http://mobilead.github.io/mobilead-mweb-sdk/)를 참고하시기 바랍니다.
 
 이 문서는 Daum 신디케이션 제휴 당사자에 한해 제공되는 자료로 가이드 라인을 포함한 모든 자료의 지적재산권은 주식회사 다음커뮤니케이션이 보유합니다.
 
