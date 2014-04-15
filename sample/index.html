@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Ad@m Mobile Ad Web Integration Guide</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootswatch/3.1.1/yeti/bootstrap.min.css">
+	<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    
+    <!-- 예제 코드 Highlighting -->
+	<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/prettify/r224/prettify.min.css">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/prettify/r224/prettify.min.js"></script>
+</head>
+<body  onload="prettyPrint()">
+
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid" style="background:#151515 url(./img/icon.png) no-repeat left top;padding-left:43px">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Ad@m</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      	<li><a href="http://mobile.biz.daum.net/" target="_blank">Home</a></li>
+        <li class="active"><a href="#">모바일웹</a></li>
+      </ul>
+  </div>
+</nav>
+
+<h2>Ad@m 모바일 웹 광고 SDK Demo</h2>
+
+<h3><span class="glyphicon glyphicon-book"></span> Client ID 발급 받기</h3>
+<span class="glyphicon glyphicon-ok"></span> 자세한 발급 절차는 <a href="http://mobile.biz.daum.net/guide/guide_siteapp1.jsp" target="_blank">사이트/앱 등록안내</a> 페이지를 참고하세요.
+
+
+<h3><span class="glyphicon glyphicon-pencil"></span> 셈플 HTML 코드</h3>
+<pre class="prettyprint lang-html">
+&lt;html&gt;
+&lt;body&gt;
+&lt;!-- 광고를 보여줄 영역 --&gt;
+&lt;div id="MobileadAreaDiv"&gt;&lt;/div&gt;
+
+&lt;!-- 광고 스크립트 설정 영역 --&gt;
+&lt;script type="text/javascript"&gt;
+var daum_adam_vars = {
+  // 광고 삽입 Code에 있는 ClientId를 이 곳에 넣으세요
+  client : 'TestClientId', 
+
+  // TOP (화면상단) | BOTTOM (화면 하단) | MIDDLE (화면 중간 삽입. bannerDivId 지정 필요)
+  position : 'MIDDLE',
+
+  // position : 'MIDDLE' 인 경우, 광고를 삽입할 DIV 태그의 ID 값.
+  bannerDivId : 'MobileadAreaDiv',
+
+  // 테스트 모드 여부 설정  (실서비스시에는 false 로 설정 필요)
+  test : true	
+};
+&lt;/script&gt;
+&lt;script type="text/javascript" src="http://m1.daumcdn.net/adtc/js/mobilead.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<h3><span class="glyphicon glyphicon-phone"></span> 광고 미리보기</h3>
+<!-- 광고 영역 -->
+<div id="MobileadAreaDiv"></div>
+
+<!-- 광고 스크립트 -->
+<!-- http://mobile.biz.daum.net/guide/guide_siteapp4.jsp -->
+<script type="text/javascript">
+var daum_adam_vars = {
+	// 광고 삽입 Code에 있는 ClientId를 이 곳에 넣으세요
+	client : 'TestClientId', 
+
+	// TOP (화면상단) | BOTTOM (화면 하단) | MIDDLE (화면 중간 삽입. bannerDivId 지정 필요)
+	position : 'MIDDLE',	
+
+	// position : 'MIDDLE' 인 경우, 광고를 삽입할 DIV 태그의 ID 값.
+    bannerDivId : 'MobileadAreaDiv',	
+
+    // 테스트 모드 여부 설정  (실서비스시에는 false 로 설정 필요)
+	test : true	
+};
+</script>
+<script type="text/javascript" src="http://m1.daumcdn.net/adtc/js/mobilead.js"></script>
+</body>
+</html>
