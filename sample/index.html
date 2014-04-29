@@ -68,7 +68,12 @@ var daum_adam_vars = {
   test : true	
 };
 &lt;/script&gt;
-&lt;script type="text/javascript" src="http://m1.daumcdn.net/adtc/js/mobilead.js"&gt;&lt;/script&gt;
+
+&lt;!-- 광고 스크립트 실행 --&gt;
+&lt;script type="text/javascript"&gt;
+(function(c,d,e,f,g,h,i){(function(a,b){d.addEventListener?c.addEventListener(a,b,!!0):c.attachEvent("on"+a,b)})('load',function(){h=d.createElement(e);i=d.getElementsByTagName(e)[0];h.async=1;h.src=f;i.parentNode.insertBefore(h,i);h.onload=h.onreadystatechange=function(){(typeof(g)+'')[0]=='f'&&(!this.readyState||this.readyState=='complete')?(g()):0}},false)})(window,document,'script','http://m1.daumcdn.net/adtc/js/mobilead.js');
+&lt;/script&gt;
+
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
@@ -94,6 +99,8 @@ var daum_adam_vars = {
 	test : true	
 };
 </script>
-<script type="text/javascript" src="http://m1.daumcdn.net/adtc/js/mobilead.js"></script>
+<script type="text/javascript">
+(function(c,d,e,f,g,h,i){(function(a,b){d.addEventListener?c.addEventListener(a,b,!!0):c.attachEvent("on"+a,b)})('load',function(){h=d.createElement(e);i=d.getElementsByTagName(e)[0];h.async=1;h.src=f;i.parentNode.insertBefore(h,i);h.onload=h.onreadystatechange=function(){(typeof(g)+'')[0]=='f'&&(!this.readyState||this.readyState=='complete')?(g()):0}},false)})(window,document,'script','http://m1.daumcdn.net/adtc/js/mobilead.js');
+</script>
 </body>
 </html>
