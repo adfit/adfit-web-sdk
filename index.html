@@ -68,7 +68,12 @@ var daum_adam_vars = {
   test : true	
 };
 &lt;/script&gt;
-&lt;script type="text/javascript" src="http://m1.daumcdn.net/adtc/js/mobilead.js"&gt;&lt;/script&gt;
+
+&lt;!-- 광고 스크립트 실행 --&gt;
+&lt;script type="text/javascript"&gt;
+(function(c,d,e,f,g,h,i){(function(a,b){d.addEventListener?c.addEventListener(a,b,!!0):c.attachEvent("on"+a,b)})('load',function(){h=d.createElement(e);i=d.getElementsByTagName(e)[0];h.async=1;h.src=f;i.parentNode.insertBefore(h,i);h.onload=h.onreadystatechange=function(){(typeof(g)+'')[0]=='f'&&(!this.readyState||this.readyState=='complete')?(g()):0}},false)})(window,document,'script','http://m1.daumcdn.net/adtc/js/mobilead.js');
+&lt;/script&gt;
+
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
@@ -94,16 +99,8 @@ var daum_adam_vars = {
 	test : true	
 };
 </script>
-<script type="text/javascript" src="http://m1.daumcdn.net/adtc/js/mobilead.js"></script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-42462820-2', 'mobilead.github.io');
-  ga('send', 'pageview');
+<script type="text/javascript">
+(function(c,d,e,f,g,h,i){(function(a,b){d.addEventListener?c.addEventListener(a,b,!!0):c.attachEvent("on"+a,b)})('load',function(){h=d.createElement(e);i=d.getElementsByTagName(e)[0];h.async=1;h.src=f;i.parentNode.insertBefore(h,i);h.onload=h.onreadystatechange=function(){(typeof(g)+'')[0]=='f'&&(!this.readyState||this.readyState=='complete')?(g()):0}},false)})(window,document,'script','http://m1.daumcdn.net/adtc/js/mobilead.js');
 </script>
 </body>
 </html>
