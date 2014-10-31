@@ -10,7 +10,6 @@
 
 #### 1. 환경 설정
 
-
 ##### 1.1. 화면 중간에 노출시키고자 할 경우
 페이지 하단에 다음과 같은 광고 설정 코드를 넣습니다.
 
@@ -60,6 +59,48 @@
 	  // 테스트 모드 여부 설정  (실서비스시에는 false 로 설정 필요)
 	  test : true
   };
+&lt;/script&gt;
+&lt;!-- 광고 스크립트 실행 코드  --&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+##### 1.3. NO-AD 콜백 설정하기
+광고 요청이 실패할 경우를 제어하기 위해 NO-AD 콜백을 설정할 수 있다.
+
+예를 들어, 광고 요청이 실패한 경우에 광고 영역을 숨기는 등의 작업이 필요하다면 이 기능을 사용하면 되겠다.  
+
+아래 `광고 스크립트 환경 설정` 부분을 보면 `callbackAdFailed` 라는 이름으로 광고 실패시 실행할 함수를 지정할 수 있다.
+
+<pre class="prettyprint lang-html"><code>&lt;html&gt;
+&lt;body&gt;
+&lt;!-- 광고를 보여줄 영역 --&gt;
+&lt;div id="MobileadAreaDiv"&gt;&lt;/div&gt;
+
+&lt;!-- 광고 스크립트 환경 설정 --&gt;
+&lt;script type="text/javascript"&gt;
+	var daum_adam_vars = {
+		// 광고 삽입 Code에 있는 ClientId를 이 곳에 넣으세요
+		client : 'TestClientId',
+
+		// TOP (화면상단) | BOTTOM (화면 하단) | MIDDLE (화면 중간 삽입. bannerDivId 지정 필요)
+		position : 'MIDDLE',
+
+		// position : 'MIDDLE' 인 경우, 광고를 삽입할 DIV 태그의 ID 값.
+		bannerDivId : 'MobileadAreaDiv',
+
+		// 광고 요청 실패시에 실행할 함수(NO-AD Callback)
+		callbackAdFailed: adFailed,
+
+		// 테스트 모드 여부 설정  (실서비스시에는 false 로 설정 필요)
+		test : true
+	};
+
+	// 광고 요청 실패시에 실행할 함수
+	function adFailed(client, message) {
+		// 광고 요청이 실패할 경우,
+		// 요청이 실패한 ClientId와 실패 Message를 내려준다.
+	}
 &lt;/script&gt;
 &lt;!-- 광고 스크립트 실행 코드  --&gt;
 
