@@ -180,7 +180,7 @@ body 테그 내에 onload 속성 값으로 특정 함수를 실행하는 페이�
 &lt;!-- 광고 스크립트 실행 코드  --&gt;
 &lt;script type="text/javascript"&gt;
 function InstallAdamWebScript() {
-    (function(a,b,c,d,e,f){e=a.createElement(b);f=a.getElementsByTagName(b)[0];e.async=1;e.src=c;f.parentNode.insertBefore(e,f);e.onload=e.onreadystatechange=function(){(typeof(d)+'')[0]=='f'&&(!this.readyState||this.readyState=='complete')?(d()):0}})(document,'script','http://m.adtc.daum.net/js/mobilead.js');
+    (function(a,b,c,d,e,f){e=a.createElement(b);f=a.getElementsByTagName(b)[0];e.async=1;e.src=c;f.parentNode.insertBefore(e,f);e.onload=e.onreadystatechange=function(){(typeof(d)+'')[0]=='f'&&(!this.readyState||this.readyState=='complete')?(d()):0}})(document,'script','http://m1.daumcdn.net/adtc/js/mobilead.js');
 }
 &lt;/script&gt;
 &lt;/body&gt;
@@ -231,7 +231,7 @@ function InstallAdamWebScript() {
 &lt;!-- 광고 스크립트 실행 코드  --&gt;
 &lt;script type="text/javascript"&gt;
 function InstallAdamWebScript() {
-    (function(a,b,c,d,e,f){e=a.createElement(b);f=a.getElementsByTagName(b)[0];e.async=1;e.src=c;f.parentNode.insertBefore(e,f);e.onload=e.onreadystatechange=function(){(typeof(d)+'')[0]=='f'&&(!this.readyState||this.readyState=='complete')?(d()):0}})(document,'script','http://m.adtc.daum.net/js/mobilead.js');
+    (function(a,b,c,d,e,f){e=a.createElement(b);f=a.getElementsByTagName(b)[0];e.async=1;e.src=c;f.parentNode.insertBefore(e,f);e.onload=e.onreadystatechange=function(){(typeof(d)+'')[0]=='f'&&(!this.readyState||this.readyState=='complete')?(d()):0}})(document,'script','http://m1.daumcdn.net/adtc/js/mobilead.js');
 }
 &lt;/script&gt;
 &lt;/body&gt;
