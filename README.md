@@ -214,6 +214,6 @@ function InstallAdamWebScript() {
 
 실제 적용 예제는 [셈플 페이지](http://mobilead.github.io/mobilead-mweb-sdk/)를 참고하시기 바랍니다.
 
-이 문서는 Daum 신디케이션 제휴 당사자에 한해 제공되는 자료로 가이드 라인을 포함한 모든 자료의 지적재산권은 주식회사 다음커뮤니케이션이 보유합니다.
+이 문서는 Daum Kakao 신디케이션 제휴 당사자에 한해 제공되는 자료로 가이드 라인을 포함한 모든 자료의 지적재산권은 주식회사 다음카카오가 보유합니다.
 
-Copyright © Daum Communications. All Rights Reserved.
+Copyright (c)2014 Daum Kakao Corp. All rights reserved.
