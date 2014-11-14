@@ -6,7 +6,7 @@
 <br />사이트/앱 운영정책에 어긋나는 경우 적립금 지급이 거절 될 수 있으니 유의하시기 바랍니다.
 
 * 문의 고객센터 [http://cs.daum.net/mail/form/256.html](http://cs.daum.net/mail/form/256.html)
-* 사이트/앱 운영 정책 [http://mobile.biz.daum.net/guide/guide_siteapp_policy.jsp](http://mobile.biz.daum.net/guide/guide_siteapp_policy.jsp)
+* 사이트/앱 운영 정책 [http://adfit.biz.daum.net/html/use.html](http://adfit.biz.daum.net/html/use.html)
 
 #### 1. 환경 설정
 
