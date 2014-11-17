@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/prettify/r224/prettify.min.css">
 <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/prettify/r224/prettify.min.js"></script>
 
-### Ad@m Mobile Web Publisher SDK Guide
+### AdFit(Ad@m) Mobile Web Publisher SDK Guide
 이 가이드는 Mobile Web에 모바일 광고를 노출하기 위한 광고 스크립트 설치 방법을 설명합니다.
 <br />사이트/앱 운영정책에 어긋나는 경우 적립금 지급이 거절 될 수 있으니 유의하시기 바랍니다.
 
