@@ -6,8 +6,8 @@
 이 가이드는 Mobile Web 모바일 광고를 Android 하이브리드 앱에 노출하기 위한 WebView 설정 방법을 설명합니다.
 <br />사이트/앱 운영정책에 어긋나는 경우 적립금 지급이 거절 될 수 있으니 유의하시기 바랍니다.
 
-* 문의 고객센터 [http://cs.daum.net/mail/form/256.html](http://cs.daum.net/mail/form/256.html)
-* 사이트/앱 운영 정책 [http://mobile.biz.daum.net/guide/guide_siteapp_policy.jsp](http://mobile.biz.daum.net/guide/guide_siteapp_policy.jsp)
+* 문의 고객센터 [https://cs.daum.net/question/256.html](https://cs.daum.net/question/256.html)
+* 사이트/앱 운영 정책 [http://adfit.biz.daum.net/html/use.html](http://adfit.biz.daum.net/html/use.html)
 
 원칙적으로 하이브리드 앱에 대한 기술적인 지원은 하고 있지 않으나, 일부 프리미엄 매체를 위한 가이드 라인 정도로 문서를 활용할 수 있습니다.
 
@@ -130,6 +130,6 @@ WebViewClient를 사용하면 페이지 내에서 링크를 클릭했을때 이�
 
 <script type="text/javascript">prettyPrint();</script>
 
-이 문서는 Daum 신디케이션 제휴 당사자에 한해 제공되는 자료로 가이드 라인을 포함한 모든 자료의 지적재산권은 주식회사 다음커뮤니케이션이 보유합니다.
+이 문서는 KaKao 신디케이션 제휴 당사자에 한해 제공되는 자료로 가이드 라인을 포함한 모든 자료의 지적재산권은 주식회사 카카오가 보유합니다.
 
-Copyright © Daum Communications. All Rights Reserved.
+Copyright © Kakao Corp. All Rights Reserved.
