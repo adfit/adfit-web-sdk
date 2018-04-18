@@ -13,33 +13,15 @@
 
 코드를 수정해서 설치할 경우 광고 요청에 실패하거나 잘못된 광고 요청으로 처리될 수 있습니다.
 
-
 <pre class="prettyprint lang-html">
 <code>&lt;ins class="daum_ddn_area" style="display:none;width:100%;"
  data-ad-unit    = "광고단위ID"
- data-ad-media   = "AdFit에서 발급한 매체 ID"
- data-ad-pubuser = "AdFit에서 발급한 퍼블리셔 ID"
- data-ad-type    = "A"
  data-ad-width   = "광고단위 가로 사이즈"
  data-ad-height  = "광고단위 세로 사이즈"&gt;&lt;/ins&gt;
 &lt;script type="text/javascript" src="//t1.daumcdn.net/adfit/static/ad.min.js"&gt;&lt;/script&gt;
 </code></pre>
 
-##### 1.2. 전면형 광고 스크립트 설정
-
-<pre class="prettyprint lang-html">
-<code>&lt;ins class="daum_ddn_area" style="display:none;"
- data-ad-unit    = "광고단위ID"
- data-ad-media   = "AdFit에서 발급한 매체 ID"
- data-ad-pubuser = "AdFit에서 발급한 퍼블리셔 ID"
- data-ad-type    = "A"
- data-ad-width   = "광고단위 가로 사이즈"
- data-ad-height  = "광고단위 세로 사이즈"
- data-ad-form = "interstitial"&gt;&lt;/ins&gt;
-&lt;script type="text/javascript" src="//t1.daumcdn.net/adfit/static/ad.min.js"&gt;&lt;/script&gt;
-</code></pre>
-
-##### 1.3. NO-AD 콜백 설정하기
+##### 1.2. NO-AD 콜백 설정하기
 광고 요청이 실패하거나 노출할 광고가 없는 경우에 이를 제어하도록 NO-AD 콜백 함수를 설정할 수 있습니다.
 
 AdFit에서 발급받은 코드에 아래와 같이 Callback 함수 요소를 추가하여 설정할 수 있습니다.
@@ -94,9 +76,6 @@ function callBackFunc(elm) {  
 &lt;body&gt;
     &lt;ins class="daum_ddn_area" style="display:none;"  
             data-ad-unit="ADUNIT_ID"  //AdFit에서 발급 받은 광고단위코드 값  
-            data-ad-media=" MEDIA_ID"  // AdFit에서 발급 받은 사이트 ID 값
-            data-ad-pubuser="PUBUSER_ID"  // AdFit에서 발급 받은 퍼블리셔 ID 값
-            data-ad-type="D"
             data-ad-width="250"  // 광고단위 가로 사이즈
             data-ad-height="250"  // 광고단위 세로 사이즈
             data-ad-onfail="callBackFunc"&lt;/ins&gt;
