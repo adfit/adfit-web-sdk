@@ -1,5 +1,5 @@
-### AdFit Mobile Web SDK Guide
-이 가이드는 모바일 웹에 광고를 노출하기 위한 광고 스크립트 설치 방법을 설명합니다.<br>
+### AdFit Web SDK Guide
+이 가이드는 웹에 광고를 노출하기 위한 광고 스크립트 설치 방법을 설명합니다.<br>
 사이트/앱 운영정책에 위반되는 경우 적립금 지급이 거절 될 수 있으니 유의하시기 바랍니다.
 
 * 문의 고객센터 [https://cs.daum.net/question/256.html](https://cs.daum.net/question/256.html)
