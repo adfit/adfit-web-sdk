@@ -18,7 +18,7 @@
  data-ad-unit    = "광고단위ID"
  data-ad-width   = "광고단위 가로 사이즈"
  data-ad-height  = "광고단위 세로 사이즈"&gt;&lt;/ins&gt;
-&lt;script type="text/javascript" src="//t1.daumcdn.net/adfit/static/ad.min.js"&gt;&lt;/script&gt;
+&lt;script async type="text/javascript" src="//t1.daumcdn.net/adfit/static/ad.min.js"&gt;&lt;/script&gt;
 </code></pre>
 
 ##### 1.2. NO-AD 콜백 설정하기
@@ -80,7 +80,7 @@ function callBackFunc(elm) {  
             data-ad-height="250"  // 광고단위 세로 사이즈
             data-ad-onfail="callBackFunc"&lt;/ins&gt;
    
-    &lt;script type="text/javascript" src="//t1.daumcdn.net/adfit/static/ad.min.js"&gt;
+    &lt;script async type="text/javascript" src="//t1.daumcdn.net/adfit/static/ad.min.js"&gt;
     &lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
