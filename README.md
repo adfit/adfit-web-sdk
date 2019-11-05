@@ -14,11 +14,11 @@
 코드를 수정해서 설치할 경우 광고 요청에 실패하거나 잘못된 광고 요청으로 처리될 수 있습니다.
 
 <pre class="prettyprint lang-html">
-<code>&lt;ins class="daum_ddn_area" style="display:none;width:100%;"
+<code>&lt;ins class="kakao_ddn_area" style="display:none;width:100%;"
  data-ad-unit    = "광고단위ID"
  data-ad-width   = "광고단위 가로 사이즈"
  data-ad-height  = "광고단위 세로 사이즈"&gt;&lt;/ins&gt;
-&lt;script async type="text/javascript" src="//t1.daumcdn.net/adfit/static/ad.min.js"&gt;&lt;/script&gt;
+&lt;script async type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js"&gt;&lt;/script&gt;
 </code></pre>
 
 ##### 1.2. NO-AD 콜백 설정하기
