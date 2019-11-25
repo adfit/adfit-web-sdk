@@ -2,8 +2,8 @@
 이 가이드는 웹에 광고를 노출하기 위한 광고 스크립트 설치 방법을 설명합니다.<br>
 사이트/앱 운영정책에 위반되는 경우 적립금 지급이 거절 될 수 있으니 유의하시기 바랍니다.
 
-* 문의 고객센터 [https://cs.daum.net/question/256.html](https://cs.daum.net/question/256.html)
-* 사이트/앱 운영 정책 [http://adfit.biz.daum.net/html/use.html](http://adfit.biz.daum.net/html/use.html)
+* 문의 고객센터 [https://cs.kakao.com/helps?service=160&locale=ko](https://cs.kakao.com/helps?service=160&locale=ko)
+* 사이트/앱 운영 정책 [https://adfit.kakao.com/web/html/use_kakao.html](https://adfit.kakao.com/web/html/use_kakao.html)
 
 #### 1. 환경 설정
 ##### 1.1. 기본적인 광고 스크립트 설정
