@@ -53,7 +53,7 @@ Callback 함수 실행시 ins 태그 객체를 첫 번째 인자(arg1)로 전달
 
 외부 광고 스크립트를 삽입하는 경우 동일한 사이즈의 외부 광고를 사용하여야 합니다.
 
-(예시. 구글 AdSense 코드. 외부 광고 코드 유형은 반드시 “비동기” 방식을 사용하여야 합니다.)
+(예시. Google AdSense 코드. 외부 광고 코드 유형은 반드시 “비동기” 방식을 사용하여야 합니다.)
 
 <pre class="prettyprint lang-html">
 <code>&lt;html&gt;
