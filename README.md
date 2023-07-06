@@ -18,7 +18,7 @@
  data-ad-unit    = "광고단위ID"
  data-ad-width   = "광고단위 가로 사이즈"
  data-ad-height  = "광고단위 세로 사이즈"&gt;&lt;/ins&gt;
-&lt;script async type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js"&gt;&lt;/script&gt;
+&lt;script async type="text/javascript" charset="utf-8" src="//t1.daumcdn.net/kas/static/ba.min.js"&gt;&lt;/script&gt;
 </code></pre>
 
 ##### 1.2. NO-AD 콜백 설정하기
