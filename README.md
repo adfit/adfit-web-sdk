@@ -80,7 +80,7 @@ function callBackFunc(elm) {  
             data-ad-height="250"  // 광고단위 세로 사이즈
             data-ad-onfail="callBackFunc"&lt;/ins&gt;
    
-    &lt;script async type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js"&gt;
+    &lt;script async type="text/javascript" charset="utf-8" src="//t1.daumcdn.net/kas/static/ba.min.js"&gt;
     &lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
